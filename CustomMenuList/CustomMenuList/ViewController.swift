@@ -17,8 +17,18 @@ class ViewController: UIViewController {
         MenuListView.Item(title: "选择五", image: UIImage(named: "camera_unchecked"), handler: {_ in}),
     ]
     
+    @IBOutlet weak var customButton: UIButton!
+    @IBOutlet weak var testButton: CustomizedButton!
+    @IBOutlet weak var testButton2: CustomizedButton!
+    @IBOutlet weak var testButton3: CustomizedButton!
+    @IBOutlet weak var testButton4: CustomizedButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        testButton.updateUI(spacing: 5, style: .imageTextAtHorizontal)
+        testButton2.updateUI(spacing: 5, style: .textImageAtHorizontal)
+        testButton3.updateUI(spacing: 5, style: .imageTextAtVertical)
+        testButton4.updateUI(spacing: 5, style: .textImageAtVertical)
     }
     
     @IBAction func topLeft(_ btn: UIButton) {

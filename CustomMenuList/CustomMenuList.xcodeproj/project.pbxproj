@@ -13,6 +13,7 @@
 		0C5148CB29262A8800C24C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5148CA29262A8800C24C29 /* Assets.xcassets */; };
 		0C5148CE29262A8800C24C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5148CC29262A8800C24C29 /* LaunchScreen.storyboard */; };
 		0C5148D629262AE700C24C29 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5148D529262AE700C24C29 /* MenuListView.swift */; };
+		0C5148DA2927902E00C24C29 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5148D92927902E00C24C29 /* CustomizedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0C5148CD29262A8800C24C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5148CF29262A8800C24C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C5148D529262AE700C24C29 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		0C5148D92927902E00C24C29 /* CustomizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0C5148C129262A8600C24C29 /* AppDelegate.swift */,
 				0C5148C529262A8600C24C29 /* ViewController.swift */,
 				0C5148D529262AE700C24C29 /* MenuListView.swift */,
+				0C5148D92927902E00C24C29 /* CustomizedButton.swift */,
 				0C5148C729262A8600C24C29 /* Main.storyboard */,
 				0C5148CA29262A8800C24C29 /* Assets.xcassets */,
 				0C5148CC29262A8800C24C29 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5148DA2927902E00C24C29 /* CustomizedButton.swift in Sources */,
 				0C5148D629262AE700C24C29 /* MenuListView.swift in Sources */,
 				0C5148C629262A8600C24C29 /* ViewController.swift in Sources */,
 				0C5148C229262A8600C24C29 /* AppDelegate.swift in Sources */,

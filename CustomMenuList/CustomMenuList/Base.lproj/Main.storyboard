@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mui-r6-Czp">
-                                <rect key="frame" x="10" y="57" width="82" height="35"/>
+                                <rect key="frame" x="10" y="57" width="82" height="34.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="TopLeft"/>
                                 <connections>
@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDm-we-B4k">
-                                <rect key="frame" x="288" y="57" width="92" height="35"/>
+                                <rect key="frame" x="288" y="57" width="92" height="34.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="TopRight"/>
                                 <connections>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FF-xP-GxO">
-                                <rect key="frame" x="10" y="765" width="110" height="35"/>
+                                <rect key="frame" x="9.9999999999999929" y="765.66666666666663" width="109.33333333333331" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="BottomLeft"/>
                                 <connections>
@@ -42,17 +42,62 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvU-hm-keH">
-                                <rect key="frame" x="260" y="765" width="120" height="35"/>
+                                <rect key="frame" x="260.33333333333331" y="765.66666666666663" width="119.66666666666669" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="BottomRight"/>
                                 <connections>
                                     <action selector="bottomRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qmH-A6-PBR"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="eE7-g8-VbQ">
+                                <rect key="frame" x="155" y="47" width="80" height="180"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgU-lY-SRp">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="选择项" image="camera_checked">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJa-ye-v33" customClass="CustomizedButton" customModule="CustomMenuList" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="39" width="32" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="1" image="camera_checked">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVF-aF-uc5" customClass="CustomizedButton" customModule="CustomMenuList" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="78" width="32" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="1" image="camera_checked">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNr-Zn-CLu" customClass="CustomizedButton" customModule="CustomMenuList" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="117" width="32" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="1" image="camera_checked">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYg-Zl-D5N" customClass="CustomizedButton" customModule="CustomMenuList" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="156" width="32" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="1" image="camera_checked">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="eE7-g8-VbQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2q0-oo-lVc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jvU-hm-keH" secondAttribute="bottom" constant="10" id="KrV-a8-01Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8FF-xP-GxO" secondAttribute="bottom" constant="10" id="P1C-sW-nwi"/>
                             <constraint firstItem="mui-r6-Czp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Q8q-l5-1NM"/>
@@ -60,9 +105,17 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MDm-we-B4k" secondAttribute="trailing" constant="10" id="dXS-TC-MY6"/>
                             <constraint firstItem="8FF-xP-GxO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fPX-TV-gTj"/>
                             <constraint firstItem="mui-r6-Czp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hEN-mO-H4y"/>
+                            <constraint firstItem="eE7-g8-VbQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="i8t-f2-nmF"/>
                             <constraint firstItem="MDm-we-B4k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="vAQ-NQ-REx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="customButton" destination="DgU-lY-SRp" id="x08-hG-eMD"/>
+                        <outlet property="testButton" destination="kJa-ye-v33" id="cR6-AD-L3d"/>
+                        <outlet property="testButton2" destination="lVF-aF-uc5" id="g1e-ah-ojg"/>
+                        <outlet property="testButton3" destination="MNr-Zn-CLu" id="rSD-2b-qgm"/>
+                        <outlet property="testButton4" destination="WYg-Zl-D5N" id="gKD-rq-XAd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,6 +123,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera_checked" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
