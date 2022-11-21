@@ -38,8 +38,8 @@ class CustomizedButton: UIButton {
             let originSize = self.bounds.size
             let width = max(titleSize.width, imageSize.width)
             let height = titleSize.height + imageSize.height + spacing
-            let contentMarginH = max(0, width - originSize.width)
-            let contentMarginV = max(0, height - originSize.height)
+            let contentMarginH = width - originSize.width
+            let contentMarginV = height - originSize.height
             let contentVerticalInset = contentMarginV / 2.0
             let contentHorizontalInset = contentMarginH / 2.0
             let verticalOffset = titleSize.height - imageSize.height
